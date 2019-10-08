@@ -5,3 +5,5 @@
 Android wird benutzt, um Apps auf Telefonen, Tablets, Uhren, Fernseher und Autos zu entwickeln und ist eine Programmiersprache.
 ### 1.2 Dice Roller
 Installieren von Android Studio (eine Entwicklungsumgebung). Um die Apps auszuführen, braucht man entweder ein Telefon, Tablet etc. oder man benutzt ein virtuelles Gerät. 
+### 1.3 Installing Android Studio
+In dieser Lektion installiert man Android Studio.
