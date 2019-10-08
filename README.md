@@ -9,3 +9,5 @@ Installieren von Android Studio (eine Entwicklungsumgebung). Um die Apps auszuf�
 In dieser Lektion installiert man Android Studio.
 ### 1.4 Creating the Dice Roller Project: Written Instructions
 Jetzt erstellt man ein neues Projekt. Als Sprache w채hlt man Kotlin und als minimum API level API 19.
+### 1.5 Running Your First App
+Um die App auszuf체hren, hat man die Optin ein physisches android Ger채t zu verwenden oder ein virtuelles Ger채t zu erstellen. Der Vorteil eines virtuellen Ger채ts ist vor allem, dass man mehrere Ger채te mit verschiedenen Android Versionen testen kann, ohne diese tats채chlich kaufen zu m체ssen. 
