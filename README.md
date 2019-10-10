@@ -23,3 +23,5 @@ Um im Projekt zwischen verschiedenen Files zu navigieren, gibt es unter View/Too
 Ein Quiz über die bis jetzt erhaltenen Informationen.
 ### 1.11 Activity and Layout
 Eine Layout definiert, wie die App ausschaut und besteht aus xml Code. Eine Activity bestimmt, was die App macht und besteht aus Kotline Code. Verbunden sind Layout und Activity über den Prozess Layout Inflation.
+### 1.12 Exercise: Hello Android
+Im Layout werden die Elemente die von unserer App benutzt werden definiert. Mit verschiedenen Attributen kann man Eigenschaften wie Text setzen.
