@@ -64,3 +64,5 @@ Ein großer Vorteil von Android ist es, dass die Applikation auf sehr vielen Ger
 *   Minimum API Level: Definiert, welche Funktionalitäten das Gerät zur Verfügung stellt. Auf jedem Gerät, auf welchem eine niedrigere API-Version läuft, als in der App definiert ist, kann die App nicht installiert werden. In dem Code selber kann man auch überprüfen, welche API-version das Gerät verwendet und so Einzelheiten berücksichtigen.
 ### 1.28 Exercise: Vector Drawables
 Der Vorteil von Vector-Grafiken ist, dass man soweit hineinzoomen kann, wie man will, ohne dass die Bilder an Qualität verlieren. Sie verden an API-Version 21 unterstützt. Hat das Gerät eine Version unter 19, so wird die Vektorgraphik von Gradle in ein png umgewandelt und dieses verwendet, welche aber klarerweise Speicherplatz benötigen. Durch den Befehl  `vectorDrawables.useSupportLibrary = true`, welchen man im build.gradle unter default contig im App Ordner einträgt werden diese png-Files nicht hinzugefügt. Außerdem verwendet man dann im Layout den Namespace `xmlns:app="http://schemas.android.com/apk/res-auto"`.
+### 1.28 Recap
+Zusammenfassung der Lesson
