@@ -36,4 +36,8 @@ Der Kotline Code ist für den interaktiven Part der Applikation verantwortlich, 
 *   Mit diesem Befehl kann man in dem Layout eine ID zu einem Element hinzufügen: `android:id="@+id/roll_button"`
 *   In der Activity kann das Element per ID gefunden werden: `val rollButton: Button = findViewById(R.id.roll_button)`
 *   In der Activity können Attribute des Elements verändert werden: `rollButton.text = "Let's Roll"`
+### 1.16 Exercise: OnClickListener
+In dieser Sektion lernt man, wie ein Toast erscheint, wenn ein Button gedrückt wird.
+*   OnClick Listener hinzufügen: `rollButton.setOnClickListener {}`
+*   Toast erscheinen lassen: `Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show()`
 
