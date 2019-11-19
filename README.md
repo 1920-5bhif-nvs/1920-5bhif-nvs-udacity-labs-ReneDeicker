@@ -43,4 +43,4 @@ In dieser Sektion lernt man, wie ein Toast erscheint, wenn ein Button gedrückt 
 ### 1.18 Exercise: Change the Text
 Random Zahlen können mit diesem Befehl erzeugt werden: `val randomInt = Random().nextInt(6) + 1`
 ### 1.19 Dice Images
-Einführung in den nächsten Teil der Lektion, in der wir nun das Textfeld durch Bilder ersetzen werden.
+Einführung in den nächsten Teil der Lektion, in der wir das Textfeld durch Bilder ersetzen werden.
