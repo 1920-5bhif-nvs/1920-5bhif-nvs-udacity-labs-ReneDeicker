@@ -42,3 +42,9 @@ In dieser Sektion lernt man, wie ein Toast erscheint, wenn ein Button gedrückt 
 *   Toast erscheinen lassen: `Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show()`
 ### 1.18 Exercise: Change the Text
 Random Zahlen können mit diesem Befehl erzeugt werden: `val randomInt = Random().nextInt(6) + 1`
+### 1.19 Dice Images
+Einführung in den nächsten Teil der Lektion, in der wir das Textfeld durch Bilder ersetzen werden.
+### 1.20 Exercise: Adding the Image Resource
+In dem Ressourcen Ordner (res) befinden sich alle Ressourcen (Icons, Bilder, Layout-Files, etc. ). In dem res Ordner befindet sich ein drawable Ordner, indem Bilder abgelegt werden.
+### 1.21 Exercise: Adding the ImageView
+Image Views werden verwendet, um Bilder in der UI anzuzeigen. Diese können wie alle Elemente wieder per ID gefunden werden und mit dem Befehl `diceImage.setImageResource(drawableResource)` kann das Bild geändert werden.
