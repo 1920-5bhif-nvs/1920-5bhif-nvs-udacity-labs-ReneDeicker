@@ -40,4 +40,5 @@ Der Kotline Code ist für den interaktiven Part der Applikation verantwortlich, 
 In dieser Sektion lernt man, wie ein Toast erscheint, wenn ein Button gedrückt wird.
 *   OnClick Listener hinzufügen: `rollButton.setOnClickListener {}`
 *   Toast erscheinen lassen: `Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show()`
-
+### 1.18 Exercise: Change the Text
+Random Zahlen können mit diesem Befehl erzeugt werden: `val randomInt = Random().nextInt(6) + 1`
