@@ -57,3 +57,5 @@ In dieser Sektion wird der Code optimiert
 Am Anfang der Applikation zeigen wir nun immer das Bild 1 an. Um dies zu ändern wird der Tools Namespace  benutze, um Dummy-Kontent zu erzeugen. Dieser wird nur in der Preview angezeigt aber später nach dem compilen nicht mehr.
 ### 1.25 Introduction to Gradle
 Gradle ist das Buildtool für Android. Gradle ist verantwortlich für das Kompilieren, Dependency Management, automatisierte Tests usw. Gradle macht den Code zur ausführbaren App und erstellt dabei ein APK (Android Applikation Package) welches ein File ist um Android Applikationen zu installieren.
+### 1.26 Build.gradle
+Ein Repository in Gradle ist ein Server, wo externer Code heruntergeladen wird wie z.B. Libraries. Dependencies sind externer Code, auf dem die Applikation aufbaut. Gradle ist nicht nur für Android verantwortlich sondern wird auch in anderen Sprachen eingesetzt. Mit der ApplikationID identifiziert Android als auch GooglePlay die App.
