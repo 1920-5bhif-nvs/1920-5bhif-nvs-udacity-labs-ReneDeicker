@@ -30,4 +30,7 @@ Ein Linear Layout ist dafür verantwortlich, mehrere views in die Oberfläche zu
 Empfohlen wird außerdem alle Strings, die in der UI verwendet werden in das File strings.xml zu speichern, um sie später leichter verändern zu können.
 ### 1.14 Exercise: Adding the Button
 Hier wird noch einmal Schritt für Schritt erklärt, wie man den Button hinzufügt.
+### 1.15 Exercise: Connecting the Button
+Der Kotline Code ist für den interaktiven Part der Applikation verantwortlich, sprich was z.B. passiert, wenn auf einen Button geklickt wird. Um Elemente der View ansprechen zu könne, vergibt man den Elementen eine ID. Diese werden in das R File gespeichert und mit `findViewById(R.id.roll_button)` kann man diese im Kotlin-code ansprechen.
+
 
