@@ -55,3 +55,5 @@ In dieser Sektion wird der Code optimiert
 *   Die Methode `findViewById(R.id.dice_image)` ist sehr ressourcenintensiv und sollte deshalb so wenig wie möglich aufgerufen werden.    Deshalb legt man sich ein Feld mit dem jeweiligen Element in der Aktivity an: `lateinit var diceImage: ImageView`. Lateinit verspricht dabei dass das Feld vor der 1. Interaktion von dem Element initialisiert ist.
 ### 1.24 Namespaces
 Am Anfang der Applikation zeigen wir nun immer das Bild 1 an. Um dies zu ändern wird der Tools Namespace  benutze, um Dummy-Kontent zu erzeugen. Dieser wird nur in der Preview angezeigt aber später nach dem compilen nicht mehr.
+### 1.25 Introduction to Gradle
+Gradle ist das Buildtool für Android. Gradle ist verantwortlich für das Kompilieren, Dependency Management, automatisierte Tests usw. Gradle macht den Code zur ausführbaren App und erstellt dabei ein APK (Android Applikation Package) welches ein File ist um Android Applikationen zu installieren.
