@@ -50,3 +50,6 @@ In dem Ressourcen Ordner (res) befinden sich alle Ressourcen (Icons, Bilder, Lay
 Image Views werden verwendet, um Bilder in der UI anzuzeigen. Diese können wie alle Elemente wieder per ID gefunden werden und mit dem Befehl `diceImage.setImageResource(drawableResource)` kann das Bild geändert werden.
 ### 1.22 Student Interview: Part 2
 In dieser Sektion wird wieder ein Interview mit Studenten geführt, die erklären wie es ihnen mit den ersten Schritten in Android ging. Es ging ihnen vorwiegend positiv aufgrund der guten Dokumentation von Android.
+### 1.23 Exercise: Finding Views Efficiently
+In dieser Sektion wird der Code optimiert
+*   Die Methode `findViewById(R.id.dice_image)` ist sehr ressourcenintensiv und sollte deshalb so wenig wie möglich aufgerufen werden.    Deshalb legt man sich ein Feld mit dem jeweiligen Element in der Aktivity an: `lateinit var diceImage: ImageView`. Lateinit verspricht dabei dass das Feld vor der 1. Interaktion von dem Element initialisiert ist.
