@@ -59,3 +59,6 @@ Am Anfang der Applikation zeigen wir nun immer das Bild 1 an. Um dies zu ändern
 Gradle ist das Buildtool für Android. Gradle ist verantwortlich für das Kompilieren, Dependency Management, automatisierte Tests usw. Gradle macht den Code zur ausführbaren App und erstellt dabei ein APK (Android Applikation Package) welches ein File ist um Android Applikationen zu installieren.
 ### 1.26 Build.gradle
 Ein Repository in Gradle ist ein Server, wo externer Code heruntergeladen wird wie z.B. Libraries. Dependencies sind externer Code, auf dem die Applikation aufbaut. Gradle ist nicht nur für Android verantwortlich sondern wird auch in anderen Sprachen eingesetzt. Mit der ApplikationID identifiziert Android als auch GooglePlay die App.
+### 1.27 Android Compatibility
+Ein großer Vorteil von Android ist es, dass die Applikation auf sehr vielen Geräten verwendet werden kann (Tablets, Pixel-Books, Uhren, Fernseher, Autos etc.). Jedoch muss man einiges berücksichtigen, um diese Kompatibilität zu gewährleisten.
+*   Minimum API Level: Definiert, welche Funktionalitäten das Gerät zur Verfügung stellt. Auf jedem Gerät, auf welchem eine niedrigere API-Version läuft, als in der App definiert ist, kann die App nicht installiert werden. In dem Code selber kann man auch überprüfen, welche API-version das Gerät verwendet und so Einzelheiten berücksichtigen.
