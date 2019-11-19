@@ -32,5 +32,8 @@ Empfohlen wird außerdem alle Strings, die in der UI verwendet werden in das Fil
 Hier wird noch einmal Schritt für Schritt erklärt, wie man den Button hinzufügt.
 ### 1.15 Exercise: Connecting the Button
 Der Kotline Code ist für den interaktiven Part der Applikation verantwortlich, sprich was z.B. passiert, wenn auf einen Button geklickt wird. Um Elemente der View ansprechen zu könne, vergibt man den Elementen eine ID. Diese werden in das R File gespeichert und mit `findViewById(R.id.roll_button)` kann man diese im Kotlin-code ansprechen.
-
+### 1.16 Exercise: findViewById
+*   Mit diesem Befehl kann man in dem Layout eine ID zu einem Element hinzufügen: `android:id="@+id/roll_button"`
+*   In der Activity kann das Element per ID gefunden werden: `val rollButton: Button = findViewById(R.id.roll_button)`
+*   In der Activity können Attribute des Elements verändert werden: `rollButton.text = "Let's Roll"`
 
