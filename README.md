@@ -28,4 +28,6 @@ Im Layout werden die Elemente die von unserer App benutzt werden definiert. Mit 
 ### 1.13 Adding the Button
 Ein Linear Layout ist dafür verantwortlich, mehrere views in die Oberfläche zu platzieren und die Position besser angeben zu können. Dabei wird immer ein Element unter das andere gesetzt. 
 Empfohlen wird außerdem alle Strings, die in der UI verwendet werden in das File strings.xml zu speichern, um sie später leichter verändern zu können.
+### 1.14 Exercise: Adding the Button
+Hier wird noch einmal Schritt für Schritt erklärt, wie man den Button hinzufügt.
 
