@@ -42,3 +42,5 @@ In dieser Sektion lernt man, wie ein Toast erscheint, wenn ein Button gedrückt 
 *   Toast erscheinen lassen: `Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show()`
 ### 1.18 Exercise: Change the Text
 Random Zahlen können mit diesem Befehl erzeugt werden: `val randomInt = Random().nextInt(6) + 1`
+### 1.19 Dice Images
+Einführung in den nächsten Teil der Lektion, in der wir nun das Textfeld durch Bilder ersetzen werden.
