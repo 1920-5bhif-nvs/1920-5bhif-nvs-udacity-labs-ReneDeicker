@@ -87,7 +87,8 @@ Wenn man in Android Studio das Layout xml File auswählt, kann man es auf 2 vers
 In dieser Sektion wird ein Textfeld auf die View hinzugefügt. Bei diesem stellt man einige Attribute wie Farbe, 
 Alignment, Größe etc. ein. Außerdem ist es wichtig, dass man eine Stringressource hinzufügt, da man im dem string.xml File alle Strings speichert, die in der UI vorkommen. Das selbe wird mit der Schriftgröße gemacht, welche dann in res/values/dimens.xml gespeichert wird.
 ### 2.8 Styling a TextView
-Für verschiedene Schrift argen kann man diese unter fontFamily auswählen welche dann in ein eigenes package unter res/font heruntergeladen werden. Margin als auch Padding werden wieder als Ressource angelegt.
+Für verschiedene Schrift argen kann man diese unter fontFamily auswählen welche dann in ein eigenes package unter res/font heruntergeladen werden. Margin als auch Padding werden wieder als Ressource angelegt. Den Style eines Textfields kann man nun exportieren und generell als Style in der App verwenden, indem man den Style exportiert. Dieser wird dann unter res/values/styles.xml gespeichert. 
 * Margin: Platz rund um dem ELement
 * Padding: Platz zwischen Außengrenze des Elements und dem Content
-Den Style eines Textfields kann man nun exportieren und generell als Style in der App verwenden, indem man den Style exportiert. Dieser wird dann unter res/values/styles.xml gespeichert. 
+### 2.9 Exercise: Add a TextView, ImageView, and Styling
+In dieser Übung fügt man ein ImageView zur UI hinzu. Android selbst bietet einige Bilder und Icons an, die man verwenden kann. Eine Contentdescription fügt man hinzu um das Bild kurz zu beschreiben.
