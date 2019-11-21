@@ -69,5 +69,9 @@ Zusammenfassung der Lesson.
 ## Lesson 2
 ### 2.1 Art with Aleks
 Einleitung in das Thema Layout.
-### 2.1 Introduction
+### 2.2 Introduction
 Das Layout sollte dem Benutzer helfen, um die Funktionen der App klar zu machen. Das verbinden der Daten mit der View wird DataBinding genannt.
+### 2.3 View Groups & View Hierarchy
+Alle virtuellen Elemente der Android App sind Views. Diese haben einiges gemeinsam wie z.B. die einige Properties wie height und width. Beispiele für diese Views wären Textfelder, Imagefelder oder Buttons. Jede view hat eine Position auf dem Bildschirm. Die Unit um diese Position angeben zu können ist die Density Independent Pixel (dp). Android konvertiert automatisch den dp wert in einen Pixelwert, da dieser von der Bildschirmgröße abhängig ist. Das Layout sollte möglichst wenig verschachtelt werden, da dies mit schlechterer Performance bestraft wird.
+* Linear Layout ist eine ViewGroup, wo man Views horizontal oder vertikal anordnen kann
+* Mit der Scroll View kann man in der App scrollen. 
