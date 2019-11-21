@@ -75,3 +75,7 @@ Das Layout sollte dem Benutzer helfen, um die Funktionen der App klar zu machen.
 Alle virtuellen Elemente der Android App sind Views. Diese haben einiges gemeinsam wie z.B. die einige Properties wie height und width. Beispiele für diese Views wären Textfelder, Imagefelder oder Buttons. Jede view hat eine Position auf dem Bildschirm. Die Unit um diese Position angeben zu können ist die Density Independent Pixel (dp). Android konvertiert automatisch den dp wert in einen Pixelwert, da dieser von der Bildschirmgröße abhängig ist. Das Layout sollte möglichst wenig verschachtelt werden, da dies mit schlechterer Performance bestraft wird.
 * Linear Layout ist eine ViewGroup, wo man Views horizontal oder vertikal anordnen kann
 * Mit der Scroll View kann man in der App scrollen. 
+### 2.4 Exercise: Create the AboutMe Project
+In dieser Sektion wird das Projekt erstellt. 
+### 2.5 Exercise: Create the Layout File
+In dieser Sektion erstellt man das Layout, welches zur MainActivity gehört. 
