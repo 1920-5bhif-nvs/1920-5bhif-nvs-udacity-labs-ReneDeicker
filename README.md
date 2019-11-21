@@ -79,3 +79,4 @@ Alle virtuellen Elemente der Android App sind Views. Diese haben einiges gemeins
 In dieser Sektion wird das Projekt erstellt. 
 ### 2.5 Exercise: Create the Layout File
 In dieser Sektion erstellt man das Layout, welches zur MainActivity gehört. 
+### 2.6 Layout Editor Basics
