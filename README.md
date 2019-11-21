@@ -80,3 +80,6 @@ In dieser Sektion wird das Projekt erstellt.
 ### 2.5 Exercise: Create the Layout File
 In dieser Sektion erstellt man das Layout, welches zur MainActivity gehört. 
 ### 2.6 Layout Editor Basics
+Wenn man in Android Studio das Layout xml File auswählt, kann man es auf 2 verschiedene Arten bearbeiten. Eine kombination zur Erstellung des Layouts der beiden Editoren ist empfehlenswert.
+* Mit dem Design-Tab kann man die visuelle Präsentation der Oberfläche ansehen und bearbeiten
+* Mit dem Text-Tab kann man den xml-Code der Oberfläche ansehen und bearbeiten
