@@ -83,3 +83,11 @@ In dieser Sektion erstellt man das Layout, welches zur MainActivity gehört.
 Wenn man in Android Studio das Layout xml File auswählt, kann man es auf 2 verschiedene Arten bearbeiten. Eine kombination zur Erstellung des Layouts der beiden Editoren ist empfehlenswert.
 * Mit dem Design-Tab kann man die visuelle Präsentation der Oberfläche ansehen und bearbeiten
 * Mit dem Text-Tab kann man den xml-Code der Oberfläche ansehen und bearbeiten
+### 2.7 Adding a TextView
+In dieser Sektion wird ein Textfeld auf die View hinzugefügt. Bei diesem stellt man einige Attribute wie Farbe, 
+Alignment, Größe etc. ein. Außerdem ist es wichtig, dass man eine Stringressource hinzufügt, da man im dem string.xml File alle Strings speichert, die in der UI vorkommen. Das selbe wird mit der Schriftgröße gemacht, welche dann in res/values/dimens.xml gespeichert wird.
+### 2.8 Styling a TextView
+Für verschiedene Schrift argen kann man diese unter fontFamily auswählen welche dann in ein eigenes package unter res/font heruntergeladen werden. Margin als auch Padding werden wieder als Ressource angelegt.
+* Margin: Platz rund um dem ELement
+* Padding: Platz zwischen Außengrenze des Elements und dem Content
+Den Style eines Textfields kann man nun exportieren und generell als Style in der App verwenden, indem man den Style exportiert. Dieser wird dann unter res/values/styles.xml gespeichert. 
