@@ -92,3 +92,5 @@ Für verschiedene Schrift argen kann man diese unter fontFamily auswählen welch
 * Padding: Platz zwischen Außengrenze des Elements und dem Content
 ### 2.9 Exercise: Add a TextView, ImageView, and Styling
 In dieser Übung fügt man ein ImageView zur UI hinzu. Android selbst bietet einige Bilder und Icons an, die man verwenden kann. Eine Contentdescription fügt man hinzu um das Bild kurz zu beschreiben.
+### 2.10 Exercise: Add a ScrollView
+Eine Scrollview wird dann verwendet, wenn der Inhalt, den man anzeigen möchte zu groß für das Display ist. Man vergibt auch hier eine ID, um beim Drehen des Handys die Scroll-position zu erhalten. 
