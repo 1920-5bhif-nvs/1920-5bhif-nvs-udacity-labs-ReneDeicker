@@ -69,3 +69,5 @@ Zusammenfassung der Lesson.
 ## Lesson 2
 ### 2.1 Art with Aleks
 Einleitung in das Thema Layout.
+### 2.1 Introduction
+Das Layout sollte dem Benutzer helfen, um die Funktionen der App klar zu machen. Das verbinden der Daten mit der View wird DataBinding genannt.
