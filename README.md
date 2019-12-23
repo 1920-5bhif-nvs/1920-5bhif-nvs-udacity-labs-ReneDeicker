@@ -111,3 +111,5 @@ findViewById<Button>(R.id.done_button).setOnClickListener {
     addNickname(it)
 }
 ```
+### 2.14 Data Binding
+Das Zugreifen auf ein Element mit Hilfe von findViewById kann zu Performance Problemen führen. Alternativ dazu kann man mit Hilfe von Data Binding Binding Objekte zur Laufzeit erstellen lassen.
