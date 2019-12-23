@@ -151,3 +151,5 @@ Zusammenfassung der Umsetzung.
 Durchführung eines Interviews.
 ### 2.19 Constraint Layout: ColorMyViews App
 Ein Constraint ist eine Verbindung oder eine Ausrichtung zu einem anderen UI - Element, zum Eltern Layout oder zu einer unsichtbaren RichtLinie.
+### 2.20 Creating ColorMyViews Project
+Erstellen eines neuen Projekts.
