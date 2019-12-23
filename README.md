@@ -153,5 +153,7 @@ Durchführung eines Interviews.
 Ein Constraint ist eine Verbindung oder eine Ausrichtung zu einem anderen UI - Element, zum Eltern Layout oder zu einer unsichtbaren RichtLinie.
 ### 2.20 Creating ColorMyViews Project
 Erstellen eines neuen Projekts.
-### 2.21
+### 2.21 Exercise: Create ColorMyViews Project and One Box
 Zu Beginn wird in dem neuen Projekt, im Layout File Autoconnect ausgeschaltet (Hufeisensymbol). Defaultmäßig kann man außerdem Margin einstellen im Design tab. So ist für jedes neue Element Margin bereits eingestellt. Anschließend modifiziert man die HelloWorldbox.
+### 2.22 Constraints
+In dieser Lektion wird etwas näher auf Constraints eingegangen. In der absoluten Position wird mit layout_margin gearbeitet, wobei relative Margins immer besser sind, weil sie responsive sind.
