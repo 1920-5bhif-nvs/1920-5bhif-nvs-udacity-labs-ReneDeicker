@@ -161,3 +161,5 @@ In dieser Lektion wird etwas näher auf Constraints eingegangen. In der absolute
 In dieser Lektion werden Verhältnisse erklärt. Vorteil ist, dass man keine Höhen und Breiten hard codieren muss.
 ### 2.24 Chaining
 Chaines verbinden horizontale oder vertikale Views. Dabei gibt es verschiedene Typen.
+### 2.25 Adding Box Two Below Box One
+Hinzufügen einer neuen Box und 2 Constraints sowie String-Ressources.
