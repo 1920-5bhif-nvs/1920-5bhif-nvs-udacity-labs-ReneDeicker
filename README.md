@@ -132,3 +132,16 @@ Und auf Elemente über die Bindingvariable zugegriffen werden.
     binding.doneButton.visibility = View.GONE
     binding.nicknameText.visibility = View.VISIBLE
 ```
+### 2.16 Data Binding: Data
+Bessere Performance ist eigentlich bei Databinding eine Nebensache. Viel wichtiger ist wie der Name schon sagt das Binden von Daten. Hierbei erstellen wir unsere eigene Klasse, wo sich die Daten befinden und speichern sie nicht mehr in Klassen wie strings.xml. Im activity_main.xlm File muss man nun einen Datenblock hinzufügen.
+```
+   <data>
+        <variable
+            name="myName"
+            type="at.htl.aboutme.MyName" />
+    </data>
+```
+Nun kann auf die Datenklasse zugegriffen werden
+```
+android:text="@={myName.name}"
+```
