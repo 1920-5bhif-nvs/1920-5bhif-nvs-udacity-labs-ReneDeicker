@@ -96,3 +96,11 @@ In dieser Übung fügt man ein ImageView zur UI hinzu. Android selbst bietet ein
 Eine Scrollview wird dann verwendet, wenn der Inhalt, den man anzeigen möchte zu groß für das Display ist. Man vergibt auch hier eine ID, um beim Drehen des Handys die Scroll-position zu erhalten. 
 ### 2.11 Adding an EditText for Text Input
 Um einen Textinput zu ermöglichen, muss man im Designtab unter Palette Text anklicken. Rechts daneben sind die verschiedenen Input Felder, die man auswählen kann. wenn das Ab unterstrichen ist, ist der Input editable. Bei gewissen Feldern sind sogar schon Validationen vorprogrammiert. 
+### 2.12 Adding a Done Button to Accept Text Input
+* Passt den Style an die App an: `style="@style/Widget.AppCompat.Button.Colored"`
+* Zentriert den Button im Linear Layout `android:layout_gravity="center_horizontal"`
+
+Bei einer Textview kann man die Visibilität auswählen
+* visible: man sieht das Textfeld
+* invisible: man sieht das Textfeld nicht, aber es braucht immer noch den gleichen Platz wie vorher
+* gone: das Textfeld ist komplett verschwunden
