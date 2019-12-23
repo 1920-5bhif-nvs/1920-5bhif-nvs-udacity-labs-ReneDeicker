@@ -113,3 +113,22 @@ findViewById<Button>(R.id.done_button).setOnClickListener {
 ```
 ### 2.14 Data Binding
 Das Zugreifen auf ein Element mit Hilfe von findViewById kann zu Performance Problemen führen. Alternativ dazu kann man mit Hilfe von Data Binding Binding Objekte zur Laufzeit erstellen lassen.
+### 2.15 Data Binding: Views
+Zu allererst muss man das DataBinding in build.gradle aktivieren
+```
+    dataBinding{
+        enabled = true
+    }
+```
+Dann fügt man rund um den geschriebenen xml Code in activity_main.xml ein Layout ein. Im Kotline File kann nun die Bindingvariable erstellt werden.
+```
+    private lateinit var binding: ActivityMainBinding
+    binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+```
+Und auf Elemente über die Bindingvariable zugegriffen werden.
+```
+    binding.nicknameText.text = binding.nicknameEdit.text
+    binding.nicknameEdit.visibility = View.GONE
+    binding.doneButton.visibility = View.GONE
+    binding.nicknameText.visibility = View.VISIBLE
+```
