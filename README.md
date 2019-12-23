@@ -104,3 +104,10 @@ Bei einer Textview kann man die Visibilität auswählen
 * visible: man sieht das Textfeld
 * invisible: man sieht das Textfeld nicht, aber es braucht immer noch den gleichen Platz wie vorher
 * gone: das Textfeld ist komplett verschwunden
+### 2.13 Exercise: Add EditText, Done Button, ClickHandler
+In dieser Lektion schreibt man den Code, welcher nach Klicken des Buttons  ausgeführt wird. In der OnCreate Methode muss man diese Methode als OnClickListener von dem Button registrieren.
+```
+findViewById<Button>(R.id.done_button).setOnClickListener {
+    addNickname(it)
+}
+```
