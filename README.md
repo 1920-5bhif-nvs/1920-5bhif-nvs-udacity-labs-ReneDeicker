@@ -163,3 +163,5 @@ In dieser Lektion werden Verhältnisse erklärt. Vorteil ist, dass man keine Hö
 Chaines verbinden horizontale oder vertikale Views. Dabei gibt es verschiedene Typen.
 ### 2.25 Adding Box Two Below Box One
 Hinzufügen einer neuen Box und 2 Constraints sowie String-Ressources.
+### 2.26 Adding Three Aligned Boxes
+Hinzufügen 3 neuen Boxen sowie einige Constraints.
