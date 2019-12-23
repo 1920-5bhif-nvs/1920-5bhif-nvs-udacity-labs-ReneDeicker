@@ -149,3 +149,5 @@ android:text="@={myName.name}"
 Zusammenfassung der Umsetzung.
 ### 2.18 Google Interview: John Hoford and Nicolas Roard
 Durchführung eines Interviews.
+### 2.19 Constraint Layout: ColorMyViews App
+Ein Constraint ist eine Verbindung oder eine Ausrichtung zu einem anderen UI - Element, zum Eltern Layout oder zu einer unsichtbaren RichtLinie.
