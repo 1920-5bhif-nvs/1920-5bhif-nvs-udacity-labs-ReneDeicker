@@ -169,3 +169,5 @@ Hinzufügen 3 neuen Boxen sowie einige Constraints.
 Die Farbe nach clicken einer Box soll sich ändern. Dafür fügt man wieder für jeden Button einen OnClickListener hinzu.
 ### 2.28 Baseline Constraint
 Hinzufügen von 2 textfeldern und deren Constraints.
+### 2.29 Exercise: Add Baseline Constraint and Button Chain
+Hinzufügen von 3 Buttons und deren Constraints. Per Click sollte die Farbe einer Box geändert werden.
