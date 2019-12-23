@@ -171,3 +171,5 @@ Die Farbe nach clicken einer Box soll sich ändern. Dafür fügt man wieder für
 Hinzufügen von 2 textfeldern und deren Constraints.
 ### 2.29 Exercise: Add Baseline Constraint and Button Chain
 Hinzufügen von 3 Buttons und deren Constraints. Per Click sollte die Farbe einer Box geändert werden.
+### 2.30 Where to Go Next?
+Ende der Lesson
