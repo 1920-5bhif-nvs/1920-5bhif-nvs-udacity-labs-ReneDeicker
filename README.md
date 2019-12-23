@@ -159,3 +159,5 @@ Zu Beginn wird in dem neuen Projekt, im Layout File Autoconnect ausgeschaltet (H
 In dieser Lektion wird etwas näher auf Constraints eingegangen. In der absoluten Position wird mit layout_margin gearbeitet, wobei relative Margins immer besser sind, weil sie responsive sind.
 ### 2.23 Ratios
 In dieser Lektion werden Verhältnisse erklärt. Vorteil ist, dass man keine Höhen und Breiten hard codieren muss.
+### 2.24 Chaining
+Chaines verbinden horizontale oder vertikale Views. Dabei gibt es verschiedene Typen.
