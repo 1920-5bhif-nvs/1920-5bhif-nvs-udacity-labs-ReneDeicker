@@ -165,3 +165,7 @@ Chaines verbinden horizontale oder vertikale Views. Dabei gibt es verschiedene T
 Hinzufügen einer neuen Box und 2 Constraints sowie String-Ressources.
 ### 2.26 Adding Three Aligned Boxes
 Hinzufügen 3 neuen Boxen sowie einige Constraints.
+### 2.27 Exercise: Add Aligned Boxes with Click Handlers
+Die Farbe nach clicken einer Box soll sich ändern. Dafür fügt man wieder für jeden Button einen OnClickListener hinzu.
+### 2.28 Baseline Constraint
+Hinzufügen von 2 textfeldern und deren Constraints.
