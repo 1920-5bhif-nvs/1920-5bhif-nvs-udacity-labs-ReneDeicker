@@ -146,4 +146,6 @@ Nun kann auf die Datenklasse zugegriffen werden
 android:text="@={myName.name}"
 ```
 ### 2.17 Exercise: Implement Data Binding
-Zusammenfassung der Umsetzung
+Zusammenfassung der Umsetzung.
+### 2.18 Google Interview: John Hoford and Nicolas Roard
+Durchführung eines Interviews.
