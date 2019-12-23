@@ -94,3 +94,5 @@ Für verschiedene Schrift argen kann man diese unter fontFamily auswählen welch
 In dieser Übung fügt man ein ImageView zur UI hinzu. Android selbst bietet einige Bilder und Icons an, die man verwenden kann. Eine Contentdescription fügt man hinzu um das Bild kurz zu beschreiben.
 ### 2.10 Exercise: Add a ScrollView
 Eine Scrollview wird dann verwendet, wenn der Inhalt, den man anzeigen möchte zu groß für das Display ist. Man vergibt auch hier eine ID, um beim Drehen des Handys die Scroll-position zu erhalten. 
+### 2.11 Adding an EditText for Text Input
+Um einen Textinput zu ermöglichen, muss man im Designtab unter Palette Text anklicken. Rechts daneben sind die verschiedenen Input Felder, die man auswählen kann. wenn das Ab unterstrichen ist, ist der Input editable. Bei gewissen Feldern sind sogar schon Validationen vorprogrammiert. 
