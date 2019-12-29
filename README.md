@@ -184,5 +184,8 @@ Quiz über die einzelnen Navigationskomponenten.
 Fragments wurden in dem API level 11 released, um eine flexiblere und dynamischere UI erstellen zu können. Eine Activity kann mehrere Fragments beinhalten. Zwischen den einzelnen Activities sowie Fragments kann man navigieren.
 ### 3.5 Quiz: Fragment Basics
 Quiz
+### 3.6 Exercise: Project Tour
+Nähere Vorstellung des Projekts.
+
 
 
