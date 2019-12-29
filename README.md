@@ -176,5 +176,6 @@ Ende der Lesson
 ## Lesson 3
 ### 3.1 The Guide and the Traveler
 Einführung in das Thema Navigation.
-
+### 3.2 Android Navigation Patterns
+Vorstellung der App, die man in dieser Lesson programmieren wird.
 
