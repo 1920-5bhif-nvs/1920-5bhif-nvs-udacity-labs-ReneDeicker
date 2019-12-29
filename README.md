@@ -178,4 +178,7 @@ Ende der Lesson
 Einführung in das Thema Navigation.
 ### 3.2 Android Navigation Patterns
 Vorstellung der App, die man in dieser Lesson programmieren wird.
+### 3.3 Quiz: Navigation Terms
+Quiz über die einzelnen Navigationskomponenten.
+
 
