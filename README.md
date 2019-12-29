@@ -197,3 +197,5 @@ Prinzipien der Navigation
 In dieser Sektion wird ein Navigation Graph erstellt.
 * Im res Ordner Navigation-File erstellen, um ein Fragment zu erstellen.
 * In navigation.xml das Fragment mit dem Nav Host Fragment verbinden.
+### 3.10 Principles of Navigation
+Wiederholungen der Prinzipien der Navigation von 3.8.
