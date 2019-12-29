@@ -182,5 +182,7 @@ Vorstellung der App, die man in dieser Lesson programmieren wird.
 Quiz über die einzelnen Navigationskomponenten.
 ### 3.4 Fragments
 Fragments wurden in dem API level 11 released, um eine flexiblere und dynamischere UI erstellen zu können. Eine Activity kann mehrere Fragments beinhalten. Zwischen den einzelnen Activities sowie Fragments kann man navigieren.
+### 3.5 Quiz: Fragment Basics
+Quiz
 
 
