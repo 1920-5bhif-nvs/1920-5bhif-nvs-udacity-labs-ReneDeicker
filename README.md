@@ -188,6 +188,8 @@ Quiz
 Nähere Vorstellung des Projekts.
 ### 3.7 Exercise: Creating and Adding a Fragment
 Erstellen eines Fragments sowie hinzufügen in dem main layout.
-
-
-
+### 3.8 Navigation Component
+Prinzipien der Navigation
+* Es gibt immer einen Startupunkt, wo die App startet
+* Man sollte immer zurück navigieren können
+* Der Up-Button sollte immer da sein
