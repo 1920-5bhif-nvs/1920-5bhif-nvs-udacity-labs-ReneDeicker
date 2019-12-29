@@ -186,6 +186,8 @@ Fragments wurden in dem API level 11 released, um eine flexiblere und dynamische
 Quiz
 ### 3.6 Exercise: Project Tour
 Nähere Vorstellung des Projekts.
+### 3.7 Exercise: Creating and Adding a Fragment
+Erstellen eines Fragments sowie hinzufügen in dem main layout.
 
 
 
