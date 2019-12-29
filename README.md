@@ -193,3 +193,7 @@ Prinzipien der Navigation
 * Es gibt immer einen Startupunkt, wo die App startet
 * Man sollte immer zurück navigieren können
 * Der Up-Button sollte immer da sein
+### 3.9 Exercise: Let’s Navigate Already
+In dieser Sektion wird ein Navigation Graph erstellt.
+* Im res Ordner Navigation-File erstellen, um ein Fragment zu erstellen.
+* In navigation.xml das Fragment mit dem Nav Host Fragment verbinden.
