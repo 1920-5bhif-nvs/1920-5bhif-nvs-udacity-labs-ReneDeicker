@@ -199,3 +199,5 @@ In dieser Sektion wird ein Navigation Graph erstellt.
 * In navigation.xml das Fragment mit dem Nav Host Fragment verbinden.
 ### 3.10 Principles of Navigation
 Wiederholungen der Prinzipien der Navigation von 3.8.
+### 3.11 Exercise: Conditional Navigation
+Conditional Navigation ist eine Navigation abhängig von einer Bedingung (meist eine abhängige von dem User).
