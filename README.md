@@ -201,3 +201,5 @@ In dieser Sektion wird ein Navigation Graph erstellt.
 Wiederholungen der Prinzipien der Navigation von 3.8.
 ### 3.11 Exercise: Conditional Navigation
 Conditional Navigation ist eine Navigation abhängig von einer Bedingung (meist eine abhängige von dem User).
+### 3.12 Exercise: Back Stack Manipulation
+Wenn man nun den Zurück-Button des Handys betätigt kommt man wieder in das Spiel obwohl man eigentlich wieder auf dem Hauptscreen enden sollte. Deshalb fügt man eine "Pop Behaviour" bei der Navigation zu dem End-Screen ein und wählt das gewünschte Fragment aus.
