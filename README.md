@@ -212,4 +212,5 @@ Mit Strg. + O werden Methoden angezeigt, die man überschreiben kann.
 Quiz
 ### 3.16 Google Interview: Ian Lake
 Interview
-
+### 3.17 Exercise: Adding a Menu
+Hinzufügen des About Menüs. Durch das Hinzufügen der 3 oberen Punkte kann man auf diesen Button Drücken und zum About Menü navigieren. Dazu erstellt man im res Ordner ein eigenes Menu.
