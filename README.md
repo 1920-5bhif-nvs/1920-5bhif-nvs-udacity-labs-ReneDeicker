@@ -218,3 +218,6 @@ Hinzufügen des About Menüs. Durch das Hinzufügen der 3 oberen Punkte kann man
 Quiz
 ### 3.19 Exercise: Adding Safe Arguments
 Nun werden Argumente zwischen zwei Fragmenten übergeben. Safe Args ist ein Gradle Plugin. Dies wird benutzt, um zu vermeiden das es zu Bugs aufgrund von falschen Datentyp kommt
+### 3.20 Why do we have Safe Arguments?
+Quiz
+
