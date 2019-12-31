@@ -222,5 +222,7 @@ Nun werden Argumente zwischen zwei Fragmenten übergeben. Safe Args ist ein Grad
 Quiz
 ### 3.21 Intents and Sharing
 In diesem Video wird erklärt was Intenst und Sharing bedeutet. Durch Intents kann man von einer anderen App Ressourcen abfragen, wie zum Beispiel Kontakte oder auf die Kamera. Mit Hilfe von Sharing kann man z.B Texte in verschiedenen Apps teilen.
-### 3.21 Quiz: Explicit vs Implicit Intents
+### 3.22 Quiz: Explicit vs Implicit Intents
 Quiz
+### 3.23 Exercise: Adding Sharing with an Intent
+Umsetzen der Theorie in Praxis. Nach dieser Sektion kann man sein Ergebnis mit anderen teilen.
