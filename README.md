@@ -1,5 +1,7 @@
 # 1920-5bhif-nvs-udacity-labs-ReneDeicker
 1920-5bhif-nvs-udacity-labs-ReneDeicker created by GitHub Classroom
+Alle Informationen sowie Secreenshots sind von folgender Quelle erstellt worden:
+https://classroom.udacity.com/courses/ud9012
 ## Lesson 1
 ### 1.1 Welcome To Developing Android Apps
 Android wird benutzt, um Apps auf Telefonen, Tablets, Uhren, Fernseher und Autos zu entwickeln und ist eine Programmiersprache.
@@ -253,3 +255,5 @@ Der Lifecylcle hat verschiedene Stufen, welche für bessere Perfomance des Smart
 Die Lifecycles von Activities und Fragments sind sehr ähnlich.
 Die jeweiligen Lifecycle Callback-Methoden werden immer dann aufgerufen wenn die Activity von einem Zustand in den nächsten bewegt.
 ![Diagram](/Images/LifecycleDiagram.png)
+### 4.4 Exercise: Introduction to Logging
+Erklärung der Lifecycle Methoden mit Hilfe der Android Logging API. Die Logs werden dann im Logcat Fenster angezeigt. 
