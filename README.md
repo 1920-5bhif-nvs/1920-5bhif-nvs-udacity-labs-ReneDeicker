@@ -226,3 +226,5 @@ In diesem Video wird erklärt was Intenst und Sharing bedeutet. Durch Intents ka
 Quiz
 ### 3.23 Exercise: Adding Sharing with an Intent
 Umsetzen der Theorie in Praxis. Nach dieser Sektion kann man sein Ergebnis mit anderen teilen.
+### 3.24 
+In dieser Sektion wird ein Navigation Drawer hinzugefügt, um besser navigieren zu können. Dieser kann durch swipen von links nach rechts oder klicken des drawer/hamburger icon in der Actionbar.

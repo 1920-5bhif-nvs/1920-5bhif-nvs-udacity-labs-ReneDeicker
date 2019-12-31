@@ -58,7 +58,7 @@ class GameWonFragment : Fragment() {
         return shareIntent
     }
     private fun shareSuccess() {
-        startActivity(getShareIntent())
+        startActivity(getShareIntent()) 
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
