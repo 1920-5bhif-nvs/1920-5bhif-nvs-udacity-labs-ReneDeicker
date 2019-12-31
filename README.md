@@ -234,3 +234,5 @@ Zusammenfassung über Navigation.
 Quiz
 ### 3.27 Exercise: Using Navigation Listeners
 Der "hamburger"-Button verschwindet nach wegnavigieren der Startseite, jedoch funktioniert das swipen von rechts nach links noch immer und der navigation drawer öffnet sich. Um dies zu verhindern muss man den navigation drawer sperren und wieder freigeben, jedes mal wenn auf eine andere Seite navigiert wird. 
+### 3.28 Exercise: Animation with Navigation
+In dieser Sektion werden Animations hinzugefügt. Man kann selbst welche erstellen und diese dann im navigation.xml File bei einem Navigationspfad eintragen.
