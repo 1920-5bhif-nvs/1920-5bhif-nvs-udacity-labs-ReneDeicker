@@ -232,3 +232,5 @@ In dieser Sektion wird ein Navigation Drawer hinzugefügt, um besser navigieren 
 Zusammenfassung über Navigation.
 ### 3.26 Quiz: How to Navigate
 Quiz
+### 3.27 Exercise: Using Navigation Listeners
+Der "hamburger"-Button verschwindet nach wegnavigieren der Startseite, jedoch funktioniert das swipen von rechts nach links noch immer und der navigation drawer öffnet sich. Um dies zu verhindern muss man den navigation drawer sperren und wieder freigeben, jedes mal wenn auf eine andere Seite navigiert wird. 
