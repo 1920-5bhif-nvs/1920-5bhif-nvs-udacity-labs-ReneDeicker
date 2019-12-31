@@ -249,3 +249,7 @@ Der Lifecylcle hat verschiedene Stufen, welche für bessere Perfomance des Smart
 * started 
 * resumed 
 * destroyed
+### 4.3 Exercise: Introduction to the Activity Lifecycle Diagram
+Die Lifecycles von Activities und Fragments sind sehr ähnlich.
+Die jeweiligen Lifecycle Callback-Methoden werden immer dann aufgerufen wenn die Activity von einem Zustand in den nächsten bewegt.
+![Diagram](/Images/LifecycleDiagram.png)
