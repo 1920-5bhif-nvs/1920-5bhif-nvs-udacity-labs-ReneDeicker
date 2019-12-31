@@ -220,4 +220,5 @@ Quiz
 Nun werden Argumente zwischen zwei Fragmenten übergeben. Safe Args ist ein Gradle Plugin. Dies wird benutzt, um zu vermeiden das es zu Bugs aufgrund von falschen Datentyp kommt
 ### 3.20 Why do we have Safe Arguments?
 Quiz
-
+### 3.21 Intents and Sharing
+In diesem Video wird erklärt was Intenst und Sharing bedeutet. Durch Intents kann man von einer anderen App Ressourcen abfragen, wie zum Beispiel Kontakte oder auf die Kamera. Mit Hilfe von Sharing kann man z.B Texte in verschiedenen Apps teilen.
