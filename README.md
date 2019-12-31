@@ -257,3 +257,8 @@ Die jeweiligen Lifecycle Callback-Methoden werden immer dann aufgerufen wenn die
 ![Diagram](/Images/LifecycleDiagram.png)
 ### 4.4 Exercise: Introduction to Logging
 Erklärung der Lifecycle Methoden mit Hilfe der Android Logging API. Die Logs werden dann im Logcat Fenster angezeigt. 
+ `Log.i("MainActivity", "onStart called")`
+### 4.5 Exercise: The Application Class and Timber
+Timber ist ebenfalls eine bekannte logging API.
+* Timber in build.gradle eintragen: `implementation 'com.jakewharton.timber:timber:4.7.1'`
+* Timber log Statement: `Timber.i("onStart called")`
