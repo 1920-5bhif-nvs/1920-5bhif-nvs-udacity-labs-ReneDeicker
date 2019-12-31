@@ -241,3 +241,11 @@ Quiz
 ## Lesson 4
 ### 4.1 The Case of the Missing Data
 Einführung in das thema Lifecycles
+### 4.2 Why Track Activity State?
+Jede Activity und jedes Fragment hat ihren eigenen Lifecycle.
+Der Lifecylcle hat verschiedene Stufen, welche für bessere Perfomance des Smartphones sorgen.
+* initialized 
+* created
+* started 
+* resumed 
+* destroyed
