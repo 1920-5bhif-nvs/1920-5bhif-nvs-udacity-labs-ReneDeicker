@@ -271,3 +271,5 @@ OnStart wird aufgerufen, wenn die Activity sichtbar ist und onStop wenn sie nich
 ![Diagram](/Images/LifecycleDiagramVisibleFocus.png)
 ### 4.8 onCreate vs onStart
 Beim Verlassen und wieder Öffnen der App durch den rechten unteren Handy button onStart wird aufgerufen.
+### 4.9 Activity Lifecycle States and Callbacks Summary
+Zusammenfassung der Lifecyclemethoden.
