@@ -265,3 +265,7 @@ Timber ist ebenfalls eine bekannte logging API.
 ### 4.6 Lifecycle: Open and Close
 Erklärung der Reihenfolge der Callbackmethoden.
 Quiz
+### 4.7 Lifecycle: Share dialog
+Beim Sharen wird die Callbackmethode onPause aufgerufen und bei Rückkehren in die App onResume.
+OnStart wird aufgerufen, wenn die Activity sichtbar ist und onStop wenn sie nicht mehr sichtbar ist. 
+![Diagram](/Images/LifecycleDiagramVisibleFocus.png)
