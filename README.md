@@ -278,3 +278,7 @@ Durch klicken des Homebuttons wird die Activity nicht zerstört sondern nur in d
 Quiz
 ### 4.11 Google Interview: Dianne Hackborn
 Interview
+### 4.12 Exercise: Setup and Teardown
+Starten eines Timers, der nur zählen soll, wann das Spiel sichtbar ist 
+-> Starten in onStart
+-> Stoppen in onStop
