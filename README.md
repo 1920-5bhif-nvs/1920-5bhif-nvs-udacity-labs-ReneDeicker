@@ -282,3 +282,5 @@ Interview
 Starten eines Timers, der nur zählen soll, wann das Spiel sichtbar ist 
 -> Starten in onStart
 -> Stoppen in onStop
+### 4.13 Introduction to the Lifecycle Library
+Einführung in das Thema Lifecycle Library.
