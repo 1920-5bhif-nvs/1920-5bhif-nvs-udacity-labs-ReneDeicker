@@ -290,3 +290,10 @@ Implementation des Timers mit der Lifecycle Library. Der Timer kümmert sich nun
 Das Betriebssystem teilt Apps in wichtig ein und unwichtig. Eine App die zuletzt vor 3 Tagen geöffnet wurde ist nicht so wichtig wie eine App die gerade im vordergrund läuft. Manchmal wird die App im Hintergrund sogar vom OS beendet. Diese wird aber später wirder meist automatisch vom OS geöffnet.
 ### 4.16 Process Shutdown Demo
 Wenn das OS eine App beendet versucht es immer die Daten zu sichern. Manchmal gelingt dies jedoch nicht und man muss das gesicherte Bundle selbst annehmen über die Callbackmethode OnSaveInstanceState.
+### 4.17 Exercise: onSaveInstanceState
+OnSaveInstanceState ist eine Callbackmethode, die Hilfreich sein kann, um Daten wiederherzustellen, wenn das OS die Applikation beendet hat. Sie wird aufgerufen, nachdem die Activity gestoppt wurde (nach onStop). In dem Bundle befinden sich Key-Value Paare. Die Super-Methode sollte immer aufgerufen werden, da einige Daten automatisch gesichert werden können. Selbst kann man Variablen mit `outState.putInt("key_revenue", revenue)` speichern. Diese Daten können dann in den Methoden onRestoreInstanceState oder onCreate wiederhegestellt werden. onRestoreInstanceState wird nach onStart aufgerufen.
+```
+if(savedInstanceState != null){
+    revenue = savedInstanceState.getInt(KEY_REVENUE)
+}
+```
