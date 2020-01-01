@@ -297,3 +297,5 @@ if(savedInstanceState != null){
     revenue = savedInstanceState.getInt(KEY_REVENUE)
 }
 ```
+### 4.18 Configuration Changes
+Beim Drehen des Telefons und somit der Activity, wird die Activity zerstört und wieder neu erstellt.
