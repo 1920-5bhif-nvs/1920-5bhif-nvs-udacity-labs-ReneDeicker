@@ -286,3 +286,5 @@ Starten eines Timers, der nur zählen soll, wann das Spiel sichtbar ist
 Einführung in das Thema Lifecycle Library.
 ### 4.14 Exercise: Lifecycle Observation
 Implementation des Timers mit der Lifecycle Library. Der Timer kümmert sich nun selbst mit Hilfe des Observer Patterns um das Starten und Stoppen des Timers.
+### 4.15 Process Shutdown
+Das Betriebssystem teilt Apps in wichtig ein und unwichtig. Eine App die zuletzt vor 3 Tagen geöffnet wurde ist nicht so wichtig wie eine App die gerade im vordergrund läuft. Manchmal wird die App im Hintergrund sogar vom OS beendet. Diese wird aber später wirder meist automatisch vom OS geöffnet.
