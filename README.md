@@ -288,3 +288,5 @@ Einführung in das Thema Lifecycle Library.
 Implementation des Timers mit der Lifecycle Library. Der Timer kümmert sich nun selbst mit Hilfe des Observer Patterns um das Starten und Stoppen des Timers.
 ### 4.15 Process Shutdown
 Das Betriebssystem teilt Apps in wichtig ein und unwichtig. Eine App die zuletzt vor 3 Tagen geöffnet wurde ist nicht so wichtig wie eine App die gerade im vordergrund läuft. Manchmal wird die App im Hintergrund sogar vom OS beendet. Diese wird aber später wirder meist automatisch vom OS geöffnet.
+### 4.16 Process Shutdown Demo
+Wenn das OS eine App beendet versucht es immer die Daten zu sichern. Manchmal gelingt dies jedoch nicht und man muss das gesicherte Bundle selbst annehmen über die Callbackmethode OnSaveInstanceState.
