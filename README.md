@@ -299,3 +299,5 @@ if(savedInstanceState != null){
 ```
 ### 4.18 Configuration Changes
 Beim Drehen des Telefons und somit der Activity, wird die Activity zerstört und wieder neu erstellt.
+### 4.19 The Future of Lifecycles
+Ende der Lifecycle Lesson.
