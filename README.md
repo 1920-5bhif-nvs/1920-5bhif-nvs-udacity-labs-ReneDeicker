@@ -262,3 +262,6 @@ Erklärung der Lifecycle Methoden mit Hilfe der Android Logging API. Die Logs we
 Timber ist ebenfalls eine bekannte logging API.
 * Timber in build.gradle eintragen: `implementation 'com.jakewharton.timber:timber:4.7.1'`
 * Timber log Statement: `Timber.i("onStart called")`
+### 4.6 Lifecycle: Open and Close
+Erklärung der Reihenfolge der Callbackmethoden.
+Quiz
