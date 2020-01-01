@@ -273,3 +273,8 @@ OnStart wird aufgerufen, wenn die Activity sichtbar ist und onStop wenn sie nich
 Beim Verlassen und wieder Öffnen der App durch den rechten unteren Handy button onStart wird aufgerufen.
 ### 4.9 Activity Lifecycle States and Callbacks Summary
 Zusammenfassung der Lifecyclemethoden.
+### 4.10 Lifecycle: Navigate Away
+Durch klicken des Homebuttons wird die Activity nicht zerstört sondern nur in den Hintergrund verschoben.
+Quiz
+### 4.11 Google Interview: Dianne Hackborn
+Interview
