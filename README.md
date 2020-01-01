@@ -269,3 +269,5 @@ Quiz
 Beim Sharen wird die Callbackmethode onPause aufgerufen und bei Rückkehren in die App onResume.
 OnStart wird aufgerufen, wenn die Activity sichtbar ist und onStop wenn sie nicht mehr sichtbar ist. 
 ![Diagram](/Images/LifecycleDiagramVisibleFocus.png)
+### 4.8 onCreate vs onStart
+Beim Verlassen und wieder Öffnen der App durch den rechten unteren Handy button onStart wird aufgerufen.
