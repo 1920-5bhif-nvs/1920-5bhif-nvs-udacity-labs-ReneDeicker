@@ -301,3 +301,6 @@ if(savedInstanceState != null){
 Beim Drehen des Telefons und somit der Activity, wird die Activity zerstört und wieder neu erstellt.
 ### 4.19 The Future of Lifecycles
 Ende der Lifecycle Lesson.
+## Lesson 5
+### 5.1 Architecting on the Fly
+Einführung in das Thema App Architecture.
