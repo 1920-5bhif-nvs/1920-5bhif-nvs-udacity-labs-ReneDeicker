@@ -284,3 +284,5 @@ Starten eines Timers, der nur zählen soll, wann das Spiel sichtbar ist
 -> Stoppen in onStop
 ### 4.13 Introduction to the Lifecycle Library
 Einführung in das Thema Lifecycle Library.
+### 4.14 Exercise: Lifecycle Observation
+Implementation des Timers mit der Lifecycle Library. Der Timer kümmert sich nun selbst mit Hilfe des Observer Patterns um das Starten und Stoppen des Timers.
