@@ -343,3 +343,8 @@ Vorteile des ViewModels
 Durch das Implementieren eines ViewModels wurde das Problem mit dem Rotieren des Handys gelöst, jedoch sind auch neue Probleme entstanden und es wurde uneffiezienter. Die Daten sind außerdem noch immer verloren, wenn die App vom OS gekillt wird.
 ### 5.13 LiveData
 Da man vom ViewModel nicht in den UI-Controller kommunizieren kann, gibt es LiveData. LiveData ist eine observalble Datenhaltungsklasse, welche Lebenszyklen überlebt.
+### 5.14 Exercise: Add LiveData to GameViewModel
+Ändern der Datenfelder auf observable
+* Änderung des Datentyps: `var score = MutableLiveData<Int>()`
+* Setzen eines DefaultValues: `score.value = 0`
+* Anmelden der Observer: `viewModel.score.observe(this, Observer{newScore-> binding.scoreText.text = newScore.toString()})`
