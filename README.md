@@ -307,3 +307,5 @@ Einführung in das Thema App Architecture.
 ### 5.2 Lesson Introduction
 Einige Android Teams halten Standard Designregeln ein. 
 In der Lifecycle Library gibt es noch andere Klassen wie ViewModel und LiveData.
+### 5.3 Exercise: Tour of the App
+Vorstellung der App
