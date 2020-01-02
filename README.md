@@ -339,3 +339,5 @@ Vorteile des ViewModels
 * Lifecycleprobleme und bugs treten nicht mehr auf 
 * UI kann neu designed werden und das alte ViewModel kann immer noch verwendet werden.
 * ViewModels sind leichter Testbar
+### 5.12 The Power and Limits of the ViewModel
+Durch das Implementieren eines ViewModels wurde das Problem mit dem Rotieren des Handys gelöst, jedoch sind auch neue Probleme entstanden und es wurde uneffiezienter. Die Daten sind außerdem noch immer verloren, wenn die App vom OS gekillt wird.
