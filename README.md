@@ -329,3 +329,13 @@ Implementation eines ViewModels
 * Hinzufügen in build.gradle der App: `implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0' `
 * Erstellen des ViewModels
 * Instanzierung des ViewModels, sodass nur beim ersten Mal ein neues ViewModel instanziert wird: `viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)`
+### 5.9 What Belongs in the GameViewModel?
+Quiz
+### 5.10 Exercise: Populate the GameViewModel
+In dieser Sektion werden nun Variablen sowie Logikfunktionen in das ViewModel ausgelagert. Alles was jedoch mit Navigation zu tun hat bleibt im Fragment.
+### 5.11 The Benefits of a Good Architecture
+Vorteile des ViewModels
+* Code ist organisierter
+* Lifecycleprobleme und bugs treten nicht mehr auf 
+* UI kann neu designed werden und das alte ViewModel kann immer noch verwendet werden.
+* ViewModels sind leichter Testbar
