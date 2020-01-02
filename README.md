@@ -324,3 +324,8 @@ Seperation of Concerns: Aufteilen des Codes in Klassen - jede hat verschiedene d
 * LiveData - Bringt die Daten vom ViewModel in den UI-Controller
 ### 5.7 ViewModel
 Ein ViewModel ist eine abstrakte Klasse, welche die UI Daten sammelt. Diese Daten überleben Konfigurationsänderung wie z.B. das Drehen des Geräts. Es gibt außerdem keine Beschränkung des Speicherplatzes, wie bei onSaveInstanceState.
+### 5.8 Exercise: Create the GameViewModel
+Implementation eines ViewModels
+* Hinzufügen in build.gradle der App: `implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0' `
+* Erstellen des ViewModels
+* Instanzierung des ViewModels, sodass nur beim ersten Mal ein neues ViewModel instanziert wird: `viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)`
