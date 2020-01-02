@@ -341,3 +341,5 @@ Vorteile des ViewModels
 * ViewModels sind leichter Testbar
 ### 5.12 The Power and Limits of the ViewModel
 Durch das Implementieren eines ViewModels wurde das Problem mit dem Rotieren des Handys gelöst, jedoch sind auch neue Probleme entstanden und es wurde uneffiezienter. Die Daten sind außerdem noch immer verloren, wenn die App vom OS gekillt wird.
+### 5.13 LiveData
+Da man vom ViewModel nicht in den UI-Controller kommunizieren kann, gibt es LiveData. LiveData ist eine observalble Datenhaltungsklasse, welche Lebenszyklen überlebt.
