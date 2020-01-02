@@ -315,4 +315,10 @@ Nach Rotieren des Telefons verliert man das Wort sowie den aktuellen Punktestand
 Diesen Bug könnte man wieder durch die Methode saveInstanceState lösen. Die dafür benötigten Bundles haben aber auch ihre Nachteile:
 * Man muss extra Code für sie schreiben, um Daten zu speichern
 * Sie haben begrenzten Speicherplatz, überschreitet man diesen wird eine Exception geworfen.
+
 Für die Richtige Architektur gibt es keinen eindeutigen Weg. Es kommt immer darauf an welchen Zweck die App hat. In dieser Lesson wird das Pattern Model-View-ViewModel vorgestellt.
+### 5.6 Our App Architecture
+Seperation of Concerns: Aufteilen des Codes in Klassen - jede hat verschiedene definierte Verantwortungen.
+* UI Controller - Anzeigen von Daten sowie Annehmen von Daten (UI-bezogene Dinge)
+* View Model - Speichern und Vorbereiten der Daten die für die UI benötigt werden
+* LiveData - Bringt die Daten vom ViewModel in den UI-Controller
