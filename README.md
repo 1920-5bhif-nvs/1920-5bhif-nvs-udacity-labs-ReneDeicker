@@ -312,3 +312,7 @@ Vorstellung der App
 ### 5.4 Where the App Falls Short
 Nach Rotieren des Telefons verliert man das Wort sowie den aktuellen Punktestand.
 ### 5.5 What is Architecture
+Diesen Bug könnte man wieder durch die Methode saveInstanceState lösen. Die dafür benötigten Bundles haben aber auch ihre Nachteile:
+* Man muss extra Code für sie schreiben, um Daten zu speichern
+* Sie haben begrenzten Speicherplatz, überschreitet man diesen wird eine Exception geworfen.
+Für die Richtige Architektur gibt es keinen eindeutigen Weg. Es kommt immer darauf an welchen Zweck die App hat. In dieser Lesson wird das Pattern Model-View-ViewModel vorgestellt.
