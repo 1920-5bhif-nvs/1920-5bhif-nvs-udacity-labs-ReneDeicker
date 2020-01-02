@@ -322,3 +322,5 @@ Seperation of Concerns: Aufteilen des Codes in Klassen - jede hat verschiedene d
 * UI Controller - Anzeigen von Daten sowie Annehmen von Daten (UI-bezogene Dinge)
 * View Model - Speichern und Vorbereiten der Daten die für die UI benötigt werden
 * LiveData - Bringt die Daten vom ViewModel in den UI-Controller
+### 5.7 ViewModel
+Ein ViewModel ist eine abstrakte Klasse, welche die UI Daten sammelt. Diese Daten überleben Konfigurationsänderung wie z.B. das Drehen des Geräts. Es gibt außerdem keine Beschränkung des Speicherplatzes, wie bei onSaveInstanceState.
