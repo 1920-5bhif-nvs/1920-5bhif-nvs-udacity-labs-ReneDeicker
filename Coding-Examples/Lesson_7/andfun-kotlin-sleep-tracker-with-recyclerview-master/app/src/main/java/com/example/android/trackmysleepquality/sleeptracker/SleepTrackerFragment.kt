@@ -98,11 +98,23 @@ class SleepTrackerFragment : Fragment() {
             }
         })
 
+        sleepTrackerViewModel.navigateToSleepDataQuality.observe(this, Observer { night ->
+            night?.let {
+
+                this.findNavController().navigate(
+                        SleepTrackerFragmentDirections
+                                .actionSleepTrackerFragmentToSleepDetailFragment(night))
+                sleepTrackerViewModel.onSleepDataQualityNavigated()
+            }
+        })
+
         val manager = GridLayoutManager(activity, 3)
         binding.sleepList.layoutManager = manager
 
-        // TODO (07) Pass a SleepNightListener callback to the SleepNightAdapter.
-        val adapter = SleepNightAdapter()
+        val adapter = SleepNightAdapter(SleepNightListener { nightId ->
+            sleepTrackerViewModel.onSleepNightClicked(nightId)
+        })
+
         binding.sleepList.adapter = adapter
 
         sleepTrackerViewModel.nights.observe(viewLifecycleOwner, Observer {
