@@ -400,6 +400,8 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 7.11 Improving Data Refresh
 ### 7.12 Exercise: Refresh Data with DiffUtil
 ### 7.13 Exercise: Add DataBinding to the Adapter
+### 7.14 Exercise: Add Binding Adapters
+
 
 
 
