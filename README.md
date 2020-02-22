@@ -402,6 +402,8 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 7.13 Exercise: Add DataBinding to the Adapter
 ### 7.14 Exercise: Add Binding Adapters
 ### 7.15 Finishing Your First RecyclerView
+### 7.16 Googler Interview: Romain Guy and Chet Haase
+### 7.17 Using GridLayout
 
 
 
