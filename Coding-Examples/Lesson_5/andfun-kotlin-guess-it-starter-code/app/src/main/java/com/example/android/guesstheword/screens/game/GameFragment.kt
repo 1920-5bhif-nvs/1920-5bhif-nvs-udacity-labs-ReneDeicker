@@ -49,7 +49,8 @@ class GameFragment : Fragment() {
                 container,
                 false
         )
-        Log.i("GameFragment", "Called ViewModelProviders.of!")
+
+        // Get the viewmodel
         viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
 
         binding.correctButton.setOnClickListener {
@@ -59,29 +60,29 @@ class GameFragment : Fragment() {
             viewModel.onSkip()
         }
 
-
-        viewModel.score.observe(this, Observer{newScore ->
-            binding.scoreText.text = newScore.toString()
-        })
-        viewModel.word.observe(this, Observer{newWord ->
+        /** Setting up LiveData observation relationship **/
+        viewModel.word.observe(this, Observer { newWord ->
             binding.wordText.text = newWord
         })
 
-        viewModel.eventGameFinish.observe(this, Observer{hasFinished ->
-            if(hasFinished){
-                gameFinished()
+        viewModel.score.observe(this, Observer { newScore ->
+            binding.scoreText.text = newScore.toString()
+        })
+
+        // TODO (07) Setup an observer relationship to update binding.timerText
+        // You can use DateUtils.formatElapsedTime to correctly format the long to a time string
+
+        // Sets up event listening to navigate the player when the game is finished
+        viewModel.eventGameFinish.observe(this, Observer { isFinished ->
+            if (isFinished) {
+                val currentScore = viewModel.score.value ?: 0
+                val action = GameFragmentDirections.actionGameToScore(currentScore)
+                findNavController(this).navigate(action)
                 viewModel.onGameFinishComplete()
             }
         })
-        return binding.root
-    }
 
-    /**
-     * Called when the game is finished
-     */
-    private fun gameFinished() {
-        val action = GameFragmentDirections.actionGameToScore(viewModel.score.value ?: 0)
-        findNavController(this).navigate(action)
-        //Toast.makeText(this.activity, "Game has finished", Toast.LENGTH_SHORT).show()
+        return binding.root
+
     }
 }

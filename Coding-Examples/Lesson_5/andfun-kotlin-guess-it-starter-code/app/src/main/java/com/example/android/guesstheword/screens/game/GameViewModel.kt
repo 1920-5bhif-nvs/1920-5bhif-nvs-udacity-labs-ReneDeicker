@@ -1,11 +1,26 @@
 package com.example.android.guesstheword.screens.game
 
+import android.os.CountDownTimer
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class GameViewModel : ViewModel(){
+
+    companion object {
+        private const val DONE = 0L
+
+        private const val ONE_SECOND = 1000L
+
+        private const val COUNTDOWN_TIME = 60000L
+    }
+
+    private val timer: CountDownTimer
+
+    private val _currentTime = MutableLiveData<Long>()
+    val currentTime: LiveData<Long>
+        get() = _currentTime
 
     // The current word
     private var _word = MutableLiveData<String>()
@@ -32,14 +47,19 @@ class GameViewModel : ViewModel(){
         nextWord()
         _score.value = 0
         _word.value = ""
-    }
+        timer = object : CountDownTimer(COUNTDOWN_TIME, ONE_SECOND) {
 
-    override fun onCleared() {
-        if (wordList.isEmpty()) {
-            //gameFinished()
-        } else {
-            _word.value = wordList.removeAt(0)
+            override fun onTick(millisUntilFinished: Long) {
+                _currentTime.value = (millisUntilFinished / ONE_SECOND)
+            }
+
+            override fun onFinish() {
+                _currentTime.value = DONE
+                _eventGameFinish.value = true
+            }
         }
+
+        timer.start()
     }
 
     /**
@@ -78,11 +98,9 @@ class GameViewModel : ViewModel(){
     private fun nextWord() {
         //Select and remove a word from the list
         if (wordList.isEmpty()) {
-            //gameFinished()
-            _eventGameFinish.value = true
-        } else {
-            _word.value = wordList.removeAt(0)
+            resetList()
         }
+        _word.value = wordList.removeAt(0)
     }
     /** Methods for buttons presses **/
 
@@ -97,5 +115,9 @@ class GameViewModel : ViewModel(){
     }
     fun onGameFinishComplete(){
         _eventGameFinish.value = false
+    }
+    override fun onCleared() {
+        super.onCleared()
+        timer.cancel()
     }
 }
