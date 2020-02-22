@@ -366,3 +366,4 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 6.1 Architecting on the Fly
 ### 6.2 Introduction
 ### 6.3 SQLite Primer
+### 6.4 Designing Entities
