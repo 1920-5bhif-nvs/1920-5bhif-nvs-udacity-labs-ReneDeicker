@@ -351,3 +351,4 @@ Da man vom ViewModel nicht in den UI-Controller kommunizieren kann, gibt es Live
 ### 5.15 Lifecycle Awareness
 LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So kann diese Information genutzt werden und intelligent mit den Fragments und Activities kommuniziert werden.
 ### 5.16 Exercise: Add LiveData Encapsulation to GameViewModel
+### 5.17 Event vs. State
