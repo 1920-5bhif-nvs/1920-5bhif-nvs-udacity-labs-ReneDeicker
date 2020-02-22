@@ -361,3 +361,6 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 5.24 Exercise: Add LiveData Data Binding
 ### 5.25 Exercise: LiveData Map Transformation
 ### 5.27 Recap of Architecture and Lifecycles
+
+## Lesson 6
+### 6.1 Architecting on the Fly
