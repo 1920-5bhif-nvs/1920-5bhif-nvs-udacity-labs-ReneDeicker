@@ -58,6 +58,7 @@ class GameFragment : Fragment() {
             viewModel.onSkip()
         }
 
+
         viewModel.score.observe(this, Observer{newScore ->
             binding.scoreText.text = newScore.toString()
         })
