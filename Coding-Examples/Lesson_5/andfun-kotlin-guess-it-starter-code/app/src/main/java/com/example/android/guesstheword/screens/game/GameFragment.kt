@@ -53,12 +53,7 @@ class GameFragment : Fragment() {
         // Get the viewmodel
         viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
 
-        binding.correctButton.setOnClickListener {
-            viewModel.onCorrect()
-        }
-        binding.skipButton.setOnClickListener {
-            viewModel.onSkip()
-        }
+        binding.gameViewModel = viewModel
 
         /** Setting up LiveData observation relationship **/
         viewModel.word.observe(this, Observer { newWord ->
@@ -69,7 +64,7 @@ class GameFragment : Fragment() {
             binding.scoreText.text = newScore.toString()
         })
 
-        // TODO (07) Setup an observer relationship to update binding.timerText
+
         // You can use DateUtils.formatElapsedTime to correctly format the long to a time string
 
         // Sets up event listening to navigate the player when the game is finished
