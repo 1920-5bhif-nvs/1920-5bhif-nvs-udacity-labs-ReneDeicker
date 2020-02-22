@@ -389,4 +389,6 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ## Lesson 7
 ### 7.1 Recycle Woman
 ### 7.2 Introduction
+### 7.3 Your first RecyclerView
+### 7.4 Exercise: Add a RecyclerView
 
