@@ -434,3 +434,4 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 
 ## Lesson 9
 ### 9.1 Offline Movie Night
+### 9.2 Exercise: Introduction
