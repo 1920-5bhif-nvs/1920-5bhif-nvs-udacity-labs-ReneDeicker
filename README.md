@@ -357,6 +357,9 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 5.20 Adding a Timer
 ### 5.21 Exercise: Add CountDownTimer
 ### 5.22 Exercise: Add a ViewModelFactory
+### 5.23 Exercise: Add ViewModel to Data Binding
+### 5.24 Exercise: Add LiveData Data Binding
+
 
 
 

@@ -63,6 +63,7 @@ class GameFragment : Fragment() {
         viewModel.score.observe(this, Observer { newScore ->
             binding.scoreText.text = newScore.toString()
         })
+        binding.setLifecycleOwner(this)
 
 
         // You can use DateUtils.formatElapsedTime to correctly format the long to a time string
