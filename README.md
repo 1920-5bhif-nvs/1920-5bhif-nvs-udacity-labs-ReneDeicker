@@ -437,3 +437,4 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 9.2 Exercise: Introduction
 ### 9.3 What’s in a Cache
 ### 9.4 How to store data
+### 9.5 Decorating a Room
