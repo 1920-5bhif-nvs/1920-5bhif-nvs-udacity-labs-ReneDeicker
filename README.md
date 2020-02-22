@@ -384,3 +384,8 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ## 6.19 Transformation Maps
 ## 6.20 Exercise: Button States and SnackBar
 ## 6.21 Where to go next?
+
+
+## Lesson 7
+### 7.1 Recycle Woman
+
