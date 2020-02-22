@@ -354,5 +354,7 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 5.17 Event vs. State
 ### 5.18 Exercise: Add End Game Event
 ### 5.19 Google Interview: Yigit Boyar
+### 5.20 Adding a Timer
+
 
 
