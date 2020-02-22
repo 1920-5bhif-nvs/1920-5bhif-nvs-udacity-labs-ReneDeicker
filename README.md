@@ -376,3 +376,4 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ## 6.11 Displaying Sleep Data
 ## 6.12 Adding A ViewModel
 ## 6.13 Exercise: Adding a ViewModel
+## 6.14 Googler Interview: Florina Muntenescu
