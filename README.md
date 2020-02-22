@@ -394,6 +394,7 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 7.5 Exercise: Display SleepQuality Data
 ### 7.6 Exercise: Recycling ViewHolders
 ### 7.7 Displaying Sleep Quality
+### 7.8 Exercise: Display the SleepQuality List
 
 
 
