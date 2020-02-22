@@ -415,5 +415,3 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 
 
 
-
-
