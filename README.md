@@ -439,3 +439,4 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 9.4 How to store data
 ### 9.5 Decorating a Room
 ### 9.6 Building a Room
+### 9.7 Exercise: Add a DatabaseVideo Entity
