@@ -373,17 +373,17 @@ LiveData weiß in welche Lifecycle Zustand seine UI-Controller Observer sind. So
 ### 6.8 Creating a Room Database
 ### 6.9 Exercise: Creating a Room Database
 ### 6.10 Testing the Room Database
-## 6.11 Displaying Sleep Data
-## 6.12 Adding A ViewModel
-## 6.13 Exercise: Adding a ViewModel
-## 6.14 Multithreading and Coroutines
-## 6.15 Exercise: Coroutines for Long-running Operations
-## 6.16 Googler Interview: Florina Muntenescu
-## 6.17 Navigation and Sleep Quality
-## 6.18 Exercise: Recording Sleep Quality
-## 6.19 Transformation Maps
-## 6.20 Exercise: Button States and SnackBar
-## 6.21 Where to go next?
+### 6.11 Displaying Sleep Data
+### 6.12 Adding A ViewModel
+### 6.13 Exercise: Adding a ViewModel
+### 6.14 Multithreading and Coroutines
+### 6.15 Exercise: Coroutines for Long-running Operations
+### 6.16 Googler Interview: Florina Muntenescu
+### 6.17 Navigation and Sleep Quality
+### 6.18 Exercise: Recording Sleep Quality
+### 6.19 Transformation Maps
+### 6.20 Exercise: Button States and SnackBar
+### 6.21 Where to go next?
 
 ## Lesson 7
 ### 7.1 Recycle Woman
